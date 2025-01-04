@@ -142,6 +142,12 @@ form button {
     padding-block: 1rem;
     border-radius: var(--border-radius-small);
     box-shadow: 0 5px var(--green-shadow);
+    cursor: pointer;
+    transition: opacity .2s;
+
+    &:hover {
+        opacity: .9;
+    }
 }
 
 form p {
